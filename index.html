@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Score Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Score Calculator</h1>
+    <p class="subtitle">Enter six numeric values to compute your scores</p>
+
+    <form id="scoreForm">
+      <div class="inputs">
+        <!-- Inputs 1–6 -->
+        <div class="input-group">
+          <label><i class="fas fa-hashtag"></i> Value 1</label>
+          <input type="number" required />
+        </div>
+        <div class="input-group">
+          <label><i class="fas fa-hashtag"></i> Value 2</label>
+          <input type="number" required />
+        </div>
+        <div class="input-group">
+          <label><i class="fas fa-hashtag"></i> Value 3</label>
+          <input type="number" required />
+        </div>
+        <div class="input-group">
+          <label><i class="fas fa-hashtag"></i> Value 4</label>
+          <input type="number" required />
+        </div>
+        <div class="input-group">
+          <label><i class="fas fa-hashtag"></i> Value 5</label>
+          <input type="number" required />
+        </div>
+        <div class="input-group">
+          <label><i class="fas fa-hashtag"></i> Value 6</label>
+          <input type="number" required />
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">Calculate Scores</button>
+    </form>
+
+    <div id="output" class="output-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
